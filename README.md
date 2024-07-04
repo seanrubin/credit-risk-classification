@@ -7,19 +7,19 @@ Create a Logistic Regression Model with the Original Data
 
 Write a Credit Risk Analysis Report
 
-## Split the Data into Training and Testing Sets
+### Split the Data into Training and Testing Sets
 Open the starter code notebook and use it to complete the following steps:
 
 Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
 
 Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
 
-## NOTE
+### NOTE
 A value of 0 in the “loan_status” column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting.
 
 Split the data into training and testing datasets by using train_test_split.
 
-## Create a Logistic Regression Model with the Original Data
+### Create a Logistic Regression Model with the Original Data
 Use your knowledge of logistic regression to complete the following steps:
 
 Fit a logistic regression model by using the training data (X_train and y_train).
@@ -34,7 +34,7 @@ Print the classification report.
 
 Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 
-## Write a Credit Risk Analysis Report
+### Write a Credit Risk Analysis Report
 Write a brief report that includes a summary and analysis of the performance of the machine learning models that you used in this homework. You should write this report as the README.md file included in your GitHub repository.
 
 Structure your report by using the report template that Starter_Code.zip includes, ensuring that it contains the following:
@@ -61,7 +61,7 @@ A summary: Summarize the results from the machine learning model. Include your j
 **Briefly touch on any methods you used (e.g., LogisticRegression, or any resampling method):** 
 * LogisticRegression was used with both samples to classify the feature we were predicting (loan_status). LogisticRegression is a binary classification algorithm. A RandomOverSample was used to resample the data and create an even spread between the imbalanced data set, so there were equal observations of each loan status outcome.
 
-## Results
+### Results
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 **Machine Learning Model 1:**
@@ -74,7 +74,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 * Precision: 93%
 * Recall: 99%
 
-## Summary
+### Summary
 Both models perform well, and predict both '0's and '1's with 99% accuracy. 
 Model 2 has a slightly better recall score than Model 1 for predicting 1's, which are the high-risk loans, so I would recommend using Model 2 for tihs process. 
 It feels more important to correctly predict high-risk loans than to correctly predict healthy loans for this particular problem.
