@@ -46,7 +46,8 @@ The results: Using a bulleted list, describe the accuracy score, the precision s
 A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
 # Report: Overview of the Analysis
-**Explain the purpose of the analysis:** The purpose of this analysis is to develop a model for credit risk classifications based on financial information to predict whether a loan applicant is likely to have a healthy loan or a high-risk loan, meaning if they are likely to default on payments or not.
+**Explain the purpose of the analysis:** 
+* The purpose of this analysis is to develop a model for credit risk classifications based on financial information to predict whether a loan applicant is likely to have a healthy loan or a high-risk loan, meaning if they are likely to default on payments or not.
 
 **Explain what financial information the data was on, and what you needed to predict:** 
 * The data showed financial information for each applicant and loan including: loan size, interest rate, income, debt-to-income ratio, number of accounts, any derogatory marks, and total debt. This information was used to predict if the applicant was likely to default on their loan payment, making it a high-risk loan.
